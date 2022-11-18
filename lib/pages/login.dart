@@ -170,8 +170,9 @@ class _LoginPageState extends State<LoginPage> {
         ],);
       });
     }else if(username.text.toString()=='username'&&password.text.toString()=='password'){
-      Navigator.of(context).push(
-          MaterialPageRoute(builder: (context) => HomePage()));
+      Navigator.of(context).pushAndRemoveUntil(
+          MaterialPageRoute(builder: (context) => HomePage()),
+              (route) => false);
     }
   }
 }
