@@ -13,11 +13,11 @@ class CustomButtom extends StatelessWidget {
     return GestureDetector(
         onTap: onTap,
         child: Container(
-          width: 130.0,
-          height: 60.0,
+          width: 280.0,
+          height: 50.0,
           decoration: BoxDecoration(
               color: CupertinoColors.systemBlue,
-              borderRadius: BorderRadius.circular(15.0)),
+              borderRadius: BorderRadius.circular(28.0)),
           child: Padding(
             padding: const EdgeInsets.all(5.0),
             child: Row(

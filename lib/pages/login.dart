@@ -80,7 +80,7 @@ class _LoginPageState extends State<LoginPage> {
                   widget2: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: GestureDetector(
-                      child: Icon(CupertinoIcons.eye_solid),
+                      child: Icon(passd==true?CupertinoIcons.eye_solid:CupertinoIcons.eye_slash_fill),
                       onTap: () {
                         setState(() {
                           passd = !passd;
