@@ -149,7 +149,7 @@ class _LoginPageState extends State<LoginPage> {
           ),
           padding: EdgeInsets.only(bottom: 15.0),
         ),
-        flex: 4, //default flex is 2
+        flex: 2, //default flex is 2
       ),
     );
   }
